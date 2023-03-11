@@ -1,3 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  main {
+    min-height: 100%;
+  }
+  main::after {
+    content: "";
+    display: block;
+  }
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +25,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins", sans-serif;
 }
 
 a,
@@ -17,6 +38,7 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -93,6 +115,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    opacity: 0.5;
 }
 
 .b-parallax {
@@ -469,10 +492,7 @@ button {
 }
 
 .btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    box-shadow: 1px 1px 6px 3px rgba(255, 255, 255, 0.43);
 }
 
 .icon-md {
@@ -649,9 +669,8 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -677,11 +696,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto auto auto auto;
 }
 
@@ -753,7 +772,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(73, 70, 63, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -792,9 +811,6 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
-    color: #cccccc!important;
-}
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -1040,3 +1056,69 @@ h4 {
         text-align: center;
     }
 }
+
+.bloc-2-services {
+    margin: 0 50px;
+}
+
+.card {
+    border: solid 1px #484848;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.heading {
+    font-family: "Merienda", cursive;
+}
+
+.citation {
+    border: solid 1px black;
+    padding: 15px;
+    margin: 10vh 15%;
+}
+
+.scrollToTop {
+    color: white;
+}
+
+form {
+    border: solid 1px #c27956;
+    border-radius: 20px;
+    margin: 0 5%;
+    padding: 20px;
+}
+
+form .btn {
+    width: 50%;
+    margin: 0 22%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .contact {
+
+        margin: 20px 10% ;
+    }
+    }
+
+@media screen and (min-width: 800px) {
+    .portfolio-row {
+        display: flex;
+
+      }
+}
+
+
+

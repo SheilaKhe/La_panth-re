@@ -2,7 +2,6 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
     <meta name="description" content="L'agence La Panthère est une agence de web design qui aide les entreprises à devenir visibles et attractives.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -19,10 +18,6 @@
 <script defer src="./js/jqBootstrapValidation.js"></script>
 <script defer src="./js/formHandler.js"></script>
 
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
 </head>
 <body>
 <!-- Principal conteneur -->
@@ -34,10 +29,9 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html">
-							<img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" />
+							<img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" height="40" aria-label="Logo La Panthère"/>
 						</a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1"  aria-label="Bouton du menu">
-							<span class="sr-only">Toggle</span>
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Bouton du menu">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -46,11 +40,18 @@
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="index.html">Accueil</a>
+								<a href="index.html" aria-label="Accueil">Accueil</a>
 							</li>
 							<li>
-								<a href="page2.html">Contact</a>
+								<a href="index.html#bloc-2-services" aria-label="Nos services">Services</a>
 							</li>
+							<li>
+								<a href="index.html#bloc-3-what-i-do" aria-label="A propos de nous">A propos</a>
+							</li>
+							<li>
+								<a href="index.html#bloc-4-portfolio" aria-label="Notre portfolio">Portfolio</a>
+							</li>
+							<li>
 						</ul>
 					</div>
 				</nav>
@@ -145,28 +146,28 @@
 						<div class="col-sm-3">
 							<div class="text-center">
 								<a class="social" href="index.html">
-									<span class="fa fa-twitter icon-md"></span>
+									<span class="fa fa-twitter icon-md" aria-label="Notre twitter"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
 								<a class="social" href="index.html">
-									<span class="fa fa-facebook icon-md"></span>
+									<span class="fa fa-facebook icon-md" aria-label="Notre Facebook"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
 								<a class="social" href="index.html">
-									<span class="fa fa-dribbble icon-md"></span>
+									<span class="fa fa-dribbble icon-md" aria-label="Notre dribbble"></span>
 								</a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
 								<a class="social" href="index.html">
-									<span class="fa fa-instagram icon-md"></span>
+									<span class="fa fa-instagram icon-md" aria-label="Notre instagram"></span>
 								</a>
 							</div>
 						</div>

@@ -1120,5 +1120,11 @@ form .btn {
       }
 }
 
+/* FOOTER */
+footer li {
+    list-style-type: none;
+
+}
+
 
 

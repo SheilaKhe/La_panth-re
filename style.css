@@ -156,7 +156,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -670,7 +670,7 @@ label,
 .btn,
 a {
     font-weight: 400;
-    color: #575757;
+    color: black;
 }
 
 .container {

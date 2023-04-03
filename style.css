@@ -113,7 +113,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
     opacity: 0.5;
 }
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -135,11 +135,11 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: black;
 }
 
 .d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
+    border-color: black;
 }
 
 .d-bloc .a-btn,
@@ -156,7 +156,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: black;
+    color: white;
 }
 
 .d-bloc .a-btn:hover,
@@ -173,7 +173,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: grey;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -186,6 +186,40 @@ a:hover {
     border-color: rgba(255, 255, 255, 1);
 }
 
+.d-bloc .panel {
+    color: rgba(0, 0, 0, .5);
+}
+
+.d-bloc .panel button:hover {
+    color: rgba(0, 0, 0, .7);
+}
+
+.d-bloc .panel icon {
+    border-color: rgba(0, 0, 0, .7);
+}
+
+.d-bloc .panel .divider-h span {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.d-bloc .panel .a-btn {
+    color: rgba(0, 0, 0, .6);
+}
+
+.d-bloc .panel .a-btn:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.d-bloc .panel .btn-wire,
+.d-bloc .panel .btn-wire:hover {
+    color: rgba(0, 0, 0, .7);
+    border-color: rgba(0, 0, 0, .3);
+}
+
+.d-bloc .panel,
+.l-bloc {
+    color: rgba(0, 0, 0, .5);
+}
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -197,12 +231,12 @@ a:hover {
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: black;
+    border-color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-    border-color: black;
+    border-color: rgba(0, 0, 0, .1);
 }
 
 .d-bloc .panel .a-btn,
@@ -220,7 +254,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: black;
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -689,6 +723,7 @@ p {
     margin: auto auto auto auto;
 }
 
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -738,7 +773,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(73, 70, 63, 0.7);
+    background-color: rgba(73, 70, 63, 0.91);
     padding: 40px 40px 40px 40px;
 }
 
@@ -804,7 +839,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1074,7 +1109,6 @@ form .btn {
         justify-content: space-around;
       }
       .contact {
-
         margin: 20px 10% ;
     }
     }
@@ -1092,5 +1126,19 @@ footer li {
 
 }
 
+.visually-hidden{
+    clip-path:inset(0000);
+    overflow:hidden;
+    position:absolute;
+    height:1px;
+    width:1px;
+    color:#000000;
+}
 
+.social a {
+    color: white;
+}
 
+.social a:hover {
+    color: grey;
+}
